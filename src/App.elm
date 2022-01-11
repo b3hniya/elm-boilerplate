@@ -14,7 +14,7 @@ view model =
 
 main =
     Browser.sandbox
-    { init = initModel
-    , update = update
-    , view = view
-    }
+        { init = initModel
+        , update = update
+        , view = view
+        }
